@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7a213b3882.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <ul class="container header_ul">
+                <li class="header_li header_li1"><a href="index.html"><img src="img/Group2.svg" alt="logo"></a></li>
+                <li class="header_li header_li2"><img src="img/search.svg" alt="search"></li>
+                <a href="catalog.html">
+                    <li class="header_li header_li3"><img src="img/menu.svg" alt="menu">
+                        <nav class="text menu">
+                            <a class="close" href="#"><img src="img/close.png" alt="close"></a>
+                            <div class="menu_box">
+                                <p class="text_menu">MENU</p>
+                                <ul>
+                                    <li><a class="main_menu" href="#"><span>MAN</span></a>
+                                        <ul>
+                                            <li><a class="mini_menu" href="#"><span>Accessories</span></a>
+                                            </li>
+                                            <li><a class="mini_menu" href="#"><span>Bags</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Denim</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>T-Shirts</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="main_menu" href="#"><span>WOMAN</span></a>
+                                        <ul>
+                                            <li><a class="mini_menu" href="#"><span>Accessories</span></a>
+                                            </li>
+                                            <li><a class="mini_menu" href="#"><span>Jackets & Coats</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Polos</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>T-Shirts</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Shirts</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="main_menu" href="#"><span>KIDS</span></a>
+                                        <ul>
+                                            <li><a class="mini_menu" href="#"><span>Accessories</span></a>
+                                            </li>
+                                            <li><a class="mini_menu" href="#"><span>Jackets & Coats</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Polos</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>T-Shirts</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Shirts</span></a></li>
+                                            <li><a class="mini_menu" href="#"><span>Bags</span></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </li>
+                </a>
+                <a href="registration.html">
+                    <li class="header_li header_li4"><img src="img/account.svg" alt="account"></li>
+                </a>
+                <li class="header_li header_li5"><img src="img/basket.svg" alt="basket"></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="new-arrivals">
+        <div class="container new-arrivals-container">
+            <h3 class="text new-arrivals-heading">REGISTRATION</h3>
+        </div>
+    </div>
+
+
+    <div class="container text information">
+        <div class="information-1">
+            <p class="information-1-name">Your Name</p>
+            <div><input class="information-1-input" id="name" placeholder="First Name" autofocus="" required=""
+                    pattern="\S+[А-яа-я]"></div>
+            <p><input class="information-1-input" id="name" placeholder="Last Name" required="" pattern="\S+[А-яа-я]">
+            </p>
+            <div class="main-gender">
+                <div class="information-1-gender">
+                    <input type="radio" name="gender" value="Male">
+                    <span class="chose-gender">Male</span>
+                </div>
+                <div class="information-1-gender"><input type="radio" name="gender" value="Female"><span
+                        class="chose-gender">Female</span></div>
+            </div>
+            <p class="information-1-name">Login details</p>
+            <p><input class="information-1-input" id="email" placeholder="Email" required=""
+                    pattern="\S+@[a-z]+.[a-z]+"></p>
+            <p><input class="information-1-input" type="password" autocomplete="new-password" autocorrect="off"
+                    autocapitalize="off" spellcheck="false" placeholder="Password" value="" name="password"
+                    data-componentname="passwordCreate" aria-autocomplete="list"></p>
+            <p class="information-1-please">Please use 8 or more characters, with at least 1 number and a<br>mixture
+                of uppercase and lowercase
+                letters</p>
+            <button type="submit" class="information-1-submit">
+                <span>JOIN NOW</span>
+                <img class="img-arrow" src="img/arrow.svg" alt="arrow">
+            </button>
+        </div>
+
+
+        <div class="information-2">
+            <p>LOYALTY HAS ITS PERKS</p>
+            <p class="information-2__get">Get in on the loyalty program where you can earn points and<br>unlock serious
+                perks. Starting with
+                these as soon as you join:</p>
+            <ul>
+                <li class="information-2-li"><img class="information-2-li__img" src="img/check_mark.svg"
+                        alt="check_mark"> 15% off welcome offer</li>
+                <li class="information-2-li"><img class="information-2-li__img" src="img/check_mark.svg"
+                        alt="check_mark"> Free shipping, returns and exchanges on all
+                    orders</li>
+                <li class="information-2-li"><img class="information-2-li__img" src="img/check_mark.svg"
+                        alt="check_mark"> $10 off a purchase on your birthday</li>
+                <li class="information-2-li"><img class="information-2-li__img" src="img/check_mark.svg"
+                        alt="check_mark"> Early access to products</li>
+                <li class="information-2-li"><img class="information-2-li__img" src="img/check_mark.svg"
+                        alt="check_mark"> Exclusive offers & rewards</li>
+            </ul>
+        </div>
+    </div>
+
+
+    
+    <footer>
+        <div class="footer1">
+            <div class="container footer1_container">
+                <figure class="rewiew">
+                    <img src="img/review.jpg" alt="">
+                    <p class="text rewiew_text">“Vestibulum quis porttitor dui! Quisque<br>viverra nunc mi, <i>a
+                            pulvinar
+                            purus<br>condimentum</i>“
+                    </p>
+                </figure>
+                <div class="text subscribe">
+                    <h3 class="subscribe_heading">SUBSCRIBE<p class="subscribe_text">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </h3>
+                    <input class="email" type="email" placeholder="Enter Your Email" value=""><button class="submit"
+                        type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container footer2_container">
+                <p class="text rigts">© 2021 Brand All Rights Reserved.</p>
+                <nav class="footer_nav">
+                    <a class="footer_nav_button" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="footer_nav_button" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="footer_nav_button" href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a class="footer_nav_button" href="#"><i class="fa-brands fa-twitter"></i></a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
